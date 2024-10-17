@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Search</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        // Function to get the CSRF token from the cookie
+        function getCookie(name) {
+            let cookieValue = null;
+            if (document.cookie && document.cookie !== '') {
+                const cookies = document.cookie.split(';');
+                for (let i = 0; i < cookies.length; i++) {
+                    const cookie = cookies[i].trim();
+                    if (cookie.substring(0, name.length + 1) === (name + '=')) {
+                        cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                        break;
+                    }
+                }
+            }
+            return cookieValue;
+        }
+
+        $(document).ready(function() {
+            $('#searchForm').on('submit', function(e) {
+                e.preventDefault();
+
+                const year = $('#year').val();
+                const month = $('#month').val();
+
+                // Validate year and month values
+                if (!year || !month) {
+                    alert('Please select both year and month.');
+                    return;
+                }
+
+                $.ajax({
+                    url: '/search/',  // Ensure this matches your Django URL pattern
+                    type: 'POST',
+                    contentType: 'application/json',
+                    data: JSON.stringify({ year: year, month: month }),
+                    beforeSend: function(xhr) {
+                        const csrftoken = getCookie('csrftoken');
+                        xhr.setRequestHeader("X-CSRFToken", csrftoken);
+                    },
+                    success: function(response) {
+                        $('#results').empty();
+                        if (response.top_selling_courses && response.top_selling_courses.length > 0) {
+                            response.top_selling_courses.forEach(course => {
+                                $('#results').append(`
+                                    <div class="card mb-3">
+                                        <div class="card-body">
+                                            <h5 class="card-title">${course.course_title}</h5>
+                                            <p class="card-text">Subscribers: ${course.num_subscribers}</p>
+                                            <p class="card-text">Price: ${course.price}</p>
+                                            <a href="${course.url}" class="btn btn-primary">View Course</a>
+                                        </div>
+                                    </div>
+                                `);
+                            });
+                        } else {
+                            $('#results').append('<p>No courses found for the selected month and year.</p>');
+                        }
+                    },
+                    error: function(xhr) {
+                        console.error("Error response:", xhr.responseText);
+                        alert('An error occurred while fetching the courses: ' + xhr.responseText);
+                    }
+                });
+            });
+        });
+    </script>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1>Search Top-Selling Courses</h1>
+        <form id="searchForm">
+            <div class="mb-3">
+                <label for="year" class="form-label">Select Year:</label>
+                <select id="year" class="form-select" required>
+                    <option value="">Select Year</option>
+                    <script>
+                        const currentYear = new Date().getFullYear();
+                        for (let year = currentYear; year >= 2010; year--) {
+                            document.write(`<option value="${year}">${year}</option>`);
+                        }
+                    </script>
+                </select>
+            </div>
+            <div class="mb-3">
+                <label for="month" class="form-label">Select Month:</label>
+                <select id="month" class="form-select" required>
+                    <option value="">Select Month</option>
+                    <option value="1">January</option>
+                    <option value="2">February</option>
+                    <option value="3">March</option>
+                    <option value="4">April</option>
+                    <option value="5">May</option>
+                    <option value="6">June</option>
+                    <option value="7">July</option>
+                    <option value="8">August</option>
+                    <option value="9">September</option>
+                    <option value="10">October</option>
+                    <option value="11">November</option>
+                    <option value="12">December</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+        <div id="results" class="mt-4"></div>
+    </div>
+</body>
+</html>

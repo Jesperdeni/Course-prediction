@@ -1,0 +1,56 @@
+CourseID,CourseTitle,CourseDescription,InstructorName,Duration,Level,Format,BasePrice,DiscountPercentage,NumberOfEnrollments,RevenueGenerated,CompletionRate,AverageRating,NumberOfReviews,AdvertisingSpend,MarketingChannel,LaunchDate,SeasonalPromotion,GeographicalLocation
+C011,Java Programming for Beginners,Learn Java programming fundamentals,Kevin Brown,50,Beginner,Video,120,15,250,21250,80,4.6,160,600,Social Media,2023-11-01,No,USA
+C012,SQL for Data Analysis,Master SQL queries for data analysis,Jessica Taylor,40,Intermediate,Text,100,10,180,16200,85,4.8,130,350,Email Marketing,2023-12-10,Yes,Canada
+C013,Introduction to Cloud Computing,Explore the basics of cloud computing technology,William Harris,35,Beginner,Video,90,20,220,19800,75,4.5,110,400,Affiliate,2024-01-15,No,UK
+C014,Social Media Marketing,Develop effective social media marketing strategies,Olivia Martin,45,Intermediate,Interactive,110,25,200,15000,70,4.7,90,500,Search Engine,2024-02-05,Yes,Australia
+C015,Creative Writing Workshop,Enhance your writing skills through creative exercises,James White,30,Beginner,Text,80,10,160,12800,90,4.3,140,300,Email Marketing,2024-03-10,No,India
+C016,Mobile App Development,Build mobile applications using Flutter,Isabella Clark,60,Advanced,Video,200,30,120,8400,65,4.6,70,250,Social Media,2024-04-01,Yes,USA
+C017,Financial Analysis Fundamentals,Learn financial analysis techniques for business,Jacob Lewis,55,Intermediate,Text,130,15,150,19500,72,4.9,90,600,Affiliate,2024-05-20,No,Canada
+C018,Artificial Intelligence Basics,Introduction to AI concepts and applications,Emma Young,50,Advanced,Interactive,160,20,100,12800,60,4.8,80,400,Search Engine,2024-06-15,Yes,UK
+C019,User Experience Design,Understand UX principles for better product design,Michael Hall,45,Intermediate,Video,140,10,200,18000,77,4.4,110,500,Email Marketing,2024-07-01,No,Australia
+C020,Introduction to Blockchain,Learn the fundamentals of blockchain technology,Sophia Allen,50,Advanced,Text,150,25,90,6750,68,4.7,70,300,Social Media,2024-08-12,Yes,India
+C021,Excel for Data Visualization,Master data visualization techniques in Excel,Daniel Scott,40,Intermediate,Interactive,100,15,250,21250,80,4.6,140,600,Affiliate,2024-09-05,No,USA
+C022,Content Writing for the Web,Learn how to write effective web content,Chloe Thompson,35,Beginner,Text,70,10,180,12600,85,4.5,110,350,Email Marketing,2024-10-10,Yes,Canada
+C023,Introduction to Public Relations,Explore the fundamentals of public relations,David Robinson,50,Intermediate,Video,130,20,150,19500,72,4.8,90,400,Search Engine,2024-11-02,No,UK
+C024,Python for Data Science,Learn Python programming for data science applications,Ava King,60,Advanced,Interactive,180,15,220,19800,75,4.9,100,500,Social Media,2024-12-01,Yes,Australia
+C025,Email Marketing Essentials,Develop effective email marketing campaigns,Lucas Baker,30,Beginner,Text,80,10,200,16000,82,4.6,120,300,Affiliate,2025-01-15,No,India
+C026,Leadership Skills Development,Enhance your leadership skills and strategies,Liam Wright,55,Intermediate,Video,150,25,100,7500,65,4.4,80,250,Email Marketing,2025-02-12,Yes,USA
+C027,Photography Techniques for Beginners,Learn essential photography techniques and tips,Grace Green,30,Beginner,Video,75,10,150,11250,90,4.5,130,400,Social Media,2025-03-10,No,Canada
+C028,Project Management Principles,Understand the key principles of project management,Oliver Carter,45,Intermediate,Interactive,130,20,180,23400,78,4.7,110,500,Search Engine,2025-04-05,Yes,UK
+C029,Introduction to UX Research,Learn user research methods for better design,Emily Adams,50,Advanced,Text,140,15,120,16800,70,4.8,90,600,Email Marketing,2025-05-10,No,Australia
+C030,Introduction to Robotics,Explore the fundamentals of robotics and automation,Ruby Harris,60,Advanced,Interactive,200,25,80,12000,65,4.9,70,300,Affiliate,2025-06-15,Yes,India
+C031,Advanced Java Programming,Deep dive into advanced Java programming concepts,John Edwards,60,Advanced,Video,180,20,140,18900,85,4.8,150,700,Social Media,2025-07-01,No,USA
+C032,Data Science with R,Learn data science techniques using R programming,Emma Wilson,55,Intermediate,Text,150,25,170,25500,78,4.6,110,600,Email Marketing,2025-08-05,Yes,Canada
+C033,Digital Marketing Essentials,Master digital marketing strategies for online success,Olivia Lewis,45,Beginner,Interactive,120,15,190,17100,70,4.7,100,400,Affiliate,2025-09-15,No,UK
+C034,JavaScript for Web Development,Learn how to create interactive websites with JavaScript,Ethan Turner,50,Intermediate,Video,130,20,210,17850,82,4.5,120,500,Search Engine,2025-10-01,Yes,Australia
+C035,Python for Automation,Automate tasks using Python scripts,Chloe Walker,40,Beginner,Text,110,10,160,14400,88,4.4,90,300,Social Media,2025-11-12,No,India
+C036,Graphic Design Fundamentals,Learn the basics of graphic design using Adobe tools,Liam Johnson,35,Beginner,Video,100,15,130,9750,76,4.3,80,350,Email Marketing,2025-12-10,Yes,USA
+C037,Cloud Solutions Architecture,Explore advanced cloud architecture solutions,Emily Clark,70,Advanced,Text,200,30,110,15400,60,4.9,100,800,Affiliate,2026-01-25,No,Canada
+C038,SEO Optimization Techniques,Learn effective SEO strategies for websites,James Anderson,45,Intermediate,Interactive,140,20,230,29900,75,4.6,140,500,Search Engine,2026-02-15,Yes,UK
+C039,Mobile UI Design Principles,Master the principles of designing mobile user interfaces,Isabella Robinson,50,Intermediate,Video,130,15,140,18900,79,4.7,110,450,Social Media,2026-03-01,No,Australia
+C040,DevOps Fundamentals,Understand the basics of DevOps for continuous integration,Michael Evans,60,Intermediate,Text,160,20,200,27200,80,4.5,130,600,Affiliate,2026-04-05,Yes,India
+C041,Creative Photoshop Techniques,Enhance your design skills with advanced Photoshop techniques,Olivia Hill,35,Intermediate,Video,120,10,150,13500,85,4.8,120,400,Email Marketing,2026-05-10,No,USA
+C042,Machine Learning for Beginners,Introduction to machine learning concepts and applications,William Martinez,55,Beginner,Text,180,20,170,30600,72,4.7,100,500,Social Media,2026-06-01,Yes,Canada
+C043,Big Data Analytics with Hadoop,Learn big data analytics using Hadoop ecosystem,Lucas Perez,70,Advanced,Interactive,220,25,90,18900,65,4.6,90,700,Search Engine,2026-07-12,No,UK
+C044,Artificial Intelligence in Healthcare,Explore AI applications in the healthcare industry,Jessica Young,65,Advanced,Video,200,30,80,24000,60,4.9,80,800,Affiliate,2026-08-05,Yes,Australia
+C045,Blockchain and Cryptocurrency,Learn about blockchain technology and cryptocurrency,Katie Foster,50,Intermediate,Text,150,20,190,17100,85,4.8,120,500,Social Media,2026-09-15,No,India
+C046,UX/UI Design for Beginners,Understand the fundamentals of UX and UI design,David Torres,45,Beginner,Interactive,110,15,200,22000,80,4.5,130,450,Email Marketing,2026-10-01,Yes,USA
+C047,Python Web Development with Django,Build robust web applications using Python and Django,Ella Davis,55,Intermediate,Video,170,20,160,22400,78,4.7,140,600,Search Engine,2026-11-10,No,Canada
+C048,Leadership in Tech Companies,Develop leadership skills for managing tech teams,Jacob Russell,60,Advanced,Text,180,25,140,31500,70,4.6,90,500,Affiliate,2026-12-15,Yes,UK
+C049,Cybersecurity for Beginners,Introduction to cybersecurity principles and practices,Ethan Harris,50,Beginner,Interactive,130,20,210,15750,82,4.4,110,350,Social Media,2027-01-20,No,Australia
+C050,Advanced SQL Queries,Master complex SQL queries for data manipulation,Grace Johnson,60,Advanced,Text,190,25,180,20700,75,4.7,130,600,Email Marketing,2027-02-10,Yes,India
+C051,Mobile Game Development,Learn to build mobile games with Unity,Alice Lee,70,Advanced,Video,210,30,120,18900,65,4.6,120,700,Search Engine,2027-03-15,No,USA
+C052,Digital Product Management,Manage the lifecycle of digital products effectively,Sophia Clark,55,Intermediate,Text,170,15,130,17100,85,4.8,90,400,Affiliate,2027-04-01,Yes,Canada
+C053,Python for Finance,Leverage Python for financial analysis and trading,David Robinson,60,Advanced,Interactive,180,20,150,24300,78,4.9,110,500,Social Media,2027-05-05,No,UK
+C054,Game Design Fundamentals,Learn the fundamentals of game design and development,Isabella Davis,50,Beginner,Video,140,10,160,14400,80,4.4,120,350,Search Engine,2027-06-15,Yes,Australia
+C055,Data Engineering with Python,Learn data engineering concepts with Python tools,Jack Turner,65,Advanced,Text,200,25,140,27300,75,4.7,100,600,Email Marketing,2027-07-01,No,India
+C056,Social Media for Small Business,Use social media marketing to grow your small business,Chloe Wilson,40,Beginner,Interactive,90,15,150,13500,88,4.6,110,300,Affiliate,2027-08-10,Yes,USA
+C057,Deep Learning with TensorFlow,Master deep learning techniques using TensorFlow,Emily Lewis,75,Advanced,Video,220,30,100,21000,60,4.9,90,700,Social Media,2027-09-05,No,Canada
+C058,Entrepreneurship 101,Learn the basics of starting your own business,Liam Harris,50,Beginner,Text,120,20,170,15300,72,4.7,130,350,Search Engine,2027-10-15,Yes,UK
+C059,JavaScript Frameworks for Web Development,Explore popular JavaScript frameworks like React and Angular,Ella Anderson,60,Intermediate,Video,180,25,160,21600,80,4.6,110,500,Email Marketing,2027-11-01,No,Australia
+C060,Advanced Data Visualization with Python,Create advanced visualizations using Python libraries,Sophia Roberts,55,Advanced,Text,170,20,180,19800,78,4.8,140,600,Affiliate,2027-12-15,Yes,India
+C061,Ethical Hacking Fundamentals,Introduction to ethical hacking and penetration testing,William Martinez,70,Advanced,Interactive,210,30,120,16800,65,4.5,100,700,Social Media,2028-01-12,No,USA
+C062,Photography for Social Media,Learn photography techniques to enhance your social media content,Ella Clark,40,Beginner,Video,110,15,200,15750,88,4.4,90,400,Affiliate,2028-02-05,Yes,Canada
+C063,AI for Business Decision Making,Leverage AI to drive business decisions and strategy,John Carter,65,Advanced,Text,200,25,140,31500,70,4.9,120,800,Search Engine,2028-03-10,No,UK
+C064,HTML & CSS for Beginners,Learn to create websites using HTML and CSS basics,Jessica Walker,35,Beginner,Interactive,90,10,250,11250,85,4.7,150,350,Email Marketing,2028-04-15,Yes,Australia
+C065,Introduction to Natural Language Processing,Explore NLP techniques for text processing and analysis,Jack Thompson,60,Intermediate,Text,150,20,130

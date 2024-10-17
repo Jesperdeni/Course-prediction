@@ -1,0 +1,28 @@
+<!-- search/templates/search/search.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyword Search</title>
+</head>
+<body>
+    <h1>Search Keywords</h1>
+    <form method="post" action="">
+        {% csrf_token %}
+        <input type="text" name="keywords" placeholder="Enter keywords" required>
+        <input type="submit" value="Search">
+    </form>
+
+    {% if results %}
+        <h2>Results:</h2>
+        <ul>
+        {% for result in results %}
+            <li>{{ result }}</li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No results found.</p>
+    {% endif %}
+</body>
+</html>
