@@ -1,0 +1,20 @@
+#python manage.py migrate
+#python manage.py runserver
+
+
+
+python manage.py shell
+
+
+#data count 
+
+from search.models import Course
+Course.objects.all().count()
+
+to load data 
+
+import sys
+sys.path.append("C:/Users/DENI/Desktop/pr/udemy_search")  # Add project to path
+
+from search.load_data import load_csv_data
+load_csv_data()
